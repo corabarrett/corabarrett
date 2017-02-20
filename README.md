@@ -1,35 +1,63 @@
-# Landing Page Jekyll theme
+# nandomoreira.me jekyll theme
 
-Jekyll theme based on [landing-page bootstrap theme ](http://startbootstrap.com/templates/landing-page/)
+### [Preview](http://nandomoreira.me/nandomoreira-jekyll-theme/)
 
-## How to use
- - Place a image in `/img/services/`
- - Create posts to display your services. Use the follow as an example:
+## Setup
 
-```txt
----
-layout: default
-img: ipad.png
-category: Services
-title: The service title
----
-The description of this service
+### In the terminal run the commands
+
+```
+$ sudo npm i -g gulp bower browser-sync
+$ sudo gem install bundler
+$ bundle install
+$ npm install
 ```
 
-## Demo
-View this jekyll theme in action [here](https://swcool.github.io/landing-page-theme)
+## Using Rake tasks
 
-## Screenshot
-![screenshot](https://raw.githubusercontent.com/swcool/landing-page-theme/master/img/screenshot.png)
+```
+$ rake post title="TITLE OF THE POST"
+$ rake page name="about.md"
+$ rake category title="Programing"
+$ rake tag title="Jekyll"
+```
 
-===
+## Using Jekyll
 
-For more Jekyll details, read [documentation](http://jekyllrb.com/).
-This Jekyll theme used [Freelancer Jekyll theme](https://github.com/jeromelachaud/freelancer-theme/) as reference.
+### Running the server:
 
-## License
-The contents of this repository are licensed under the [Apache
-2.0](http://www.apache.org/licenses/LICENSE-2.0.html).
+```
+$ jekyll server
+```
 
-## Version
-1.0.1
+Access, [localhost:4000](http://localhost:4000/)
+
+## Using Gulp
+
+### Rum gulp
+
+```
+$ gulp
+```
+
+---
+
+## Deploy in Github pages in 2 steps
+
+1. Change the variables `GITHUB_REPONAME` and `GITHUB_REPO_BRANCH` in `Rakefile`
+2. Run `rake` or `rake publish` for build and publish on Github
+
+---
+
+* [Jekyll](http://jekyllrb.com/);
+* [Jekyll Documentation](http://jekyllrb.com/docs/home/);
+* [Como definir URLs curtas no Jekyll](http://nandomoreira.me/urls-curtas-no-jekyll/);
+* [Adicionando Disqus ao seu projeto Jekyll](http://nandomoreira.me/adicionando-disqus-ao-seu-projeto-jekyll/);
+
+---
+
+### Copyright and license
+
+It is under [the MIT license](/LICENSE).
+
+Enjoy! :yum:
