@@ -1,26 +1,22 @@
-# Site settings
 title: Cora Barrett
 email: coralouisebarrett@gmail.com
-url: ""
-description: |
-  Welcome to my website
-
-# Footer settings
-footer: Cora Barrett
-
-# Social networks
-social:
-  # - title: twitter
-  #   url: https://twitter.com/ayoungersage
-  # - title: facebook
-  #   url: https://facebook.com/sam.younger1
-  # - title: stack-overflow
-  #   url: http://stackoverflow.com/story/samyounger
-  # - title: linkedin
-  #   url: http://linkedin.com/in/sam-younger
-  - title: github
-    url: https://github.com/corabarrett
+description: >
+  This is a website by Cora Barrett describing his path to becoming a web developer, and a blog discussing web development learning.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://corabarrett.com"
+twitter_username: ayoungersage
+github_username:  corabarrett
 
 # Build settings
 markdown: kramdown
-permalink: pretty
+sass:
+  sass_dir: _sass
+include: ['_pages']
+kramdown:
+  input: GFM
+theme: minima
+gems:
+  - jekyll-feed
+exclude:
+  - Gemfile
+  - Gemfile.lock
