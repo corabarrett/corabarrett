@@ -4,6 +4,4 @@ title: About
 permalink: /about/
 ---
 
-About page contents
-
-Hello this is some more stuff
+I am going to change the about section and add some new content.

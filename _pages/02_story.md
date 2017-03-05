@@ -4,4 +4,6 @@ title: Story
 permalink: /story/
 ---
 
-Contents of story page
+Story content goes here.
+
+My e-mail is [{{ site.email }}](mailto:{{ site.email }}).
