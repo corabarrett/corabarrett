@@ -23,13 +23,17 @@ twitter_username: coratwitter
 github_username:  corabarrett
 
 # Build settings
+assets:
+  digest: true
 kramdown:
   input: GFM
 sass:
   sass_dir: _sass
+  style: compressed
 theme: minima
 gems:
   - jekyll-feed
+  - jekyll-assets
 include: ['_pages']
 exclude:
   - Gemfile
