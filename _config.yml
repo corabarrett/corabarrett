@@ -27,7 +27,6 @@ kramdown:
   input: GFM
 sass:
   sass_dir: _sass
-theme: minima
 gems:
   - jekyll-feed
 include: ['_pages']

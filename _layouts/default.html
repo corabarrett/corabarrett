@@ -3,13 +3,22 @@
 {% include head.html %}
 
 <body>
-	{% include header.html %}
+	{% include nav.html %}
+	{% if page.layout != "page" %}
+		{% include header.html %}
+	{% endif %}
+
+	{% if page.layout == "page" %}
 	<main>
 		<article>
 			{{ content }}
 		</article>
-		{% include footer.html %}
 	</main>
+	{% endif %}
+
+	{% if page.layout == "page" %}
+		{% include footer.html %}
+	{% endif %}
 </body>
 
 </html>
