@@ -4,4 +4,16 @@ title: About
 permalink: /about/
 ---
 
-I am going to change the about section and add some new content.
+# Cora Barrett
+
+About Section
+
+---
+
+Career history
+Understanding of the planning system
+
+
+## contact details
+
+[My Email](coralouisebarrett@gmail.com]
