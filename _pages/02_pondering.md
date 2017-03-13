@@ -1,8 +1,10 @@
 ---
 layout: page
-title: Story
-permalink: /story/
+title: Pondering
+permalink: /pondering/
 ---
+
+# Thoughts on a New Planning System 
 
 Story content goes here.
 
