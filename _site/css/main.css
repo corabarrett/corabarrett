@@ -59,8 +59,8 @@ code.highlighter-rouge {
   border-radius: 4px; }
 
 .highlight {
-  background: #f2f2f2;
-  border: 1px solid #cccccc;
+  background: white;
+  border: 1px solid white;
   border-radius: 5px;
   font-size: 15px;
   padding: 5px; }
@@ -205,7 +205,7 @@ h1, h2, h3, h4 {
   font-weight: 400;
   letter-spacing: 1px;
   margin: 10px 0;
-  border-bottom: 3px solid #FFD85F; }
+  border-bottom: 3px solid #68B188; }
 
 h1 {
   font-size: 30px;
@@ -224,7 +224,7 @@ h4 {
   font-size: 15px; }
 
 a {
-  color: #FFD85F;
+  color: #68B188;
   text-transform: uppercase; }
   a:hover {
     color: white;
@@ -239,13 +239,13 @@ p {
 
 @media (max-width: 736px) {
   a {
-    color: #FFD85F; } }
+    color: #68B188; } }
 .button {
   display: inline-block;
   margin: 10px;
-  border: 1px solid #FFD85F;
+  border: 1px solid #68B188;
   color: white;
-  background-color: rgba(255, 216, 95, 0.5);
+  background-color: rgba(104, 177, 136, 0.5);
   text-transform: uppercase;
   font-family: "Muli", sans-serif;
   font-weight: 400;
@@ -254,8 +254,8 @@ p {
   -moz-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out; }
   .button:hover, .button:focus {
-    border: 1px solid #FFD85F;
-    background-color: #FFD85F; }
+    border: 1px solid #68B188;
+    background-color: #68B188; }
   .button a {
     display: block;
     padding: 10px;
@@ -265,7 +265,7 @@ p {
     -moz-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out; }
     .button a:hover {
-      color: gray; }
+      color: white; }
 
 .btnCircleContainer {
   width: 60px;
@@ -337,11 +337,11 @@ input {
   box-sizing: border-box; }
 
 ::selection {
-  background: #FFD85F;
+  background: #68B188;
   /* WebKit/Blink Browsers */ }
 
 body {
-  background: #000000;
+  background: #CD9CCA;
   color: white;
   font-family: "Muli", sans-serif;
   font-weight: 100;
@@ -358,7 +358,7 @@ main {
       margin: 0 auto; }
 
 time {
-  color: #999999; }
+  color: white; }
 
 header {
   background: url("../assets/images/background.jpg") no-repeat center center fixed;
@@ -465,7 +465,7 @@ nav {
         font-size: 15px; }
       #projects .projectContainer .projectDescription .fa-cloud, #projects .projectContainer .projectDescription .fa-code {
         font-size: 3em;
-        color: #000000;
+        color: #CD9CCA;
         margin: 0 50px; }
     #projects .projectContainer:last-child .iconContainer {
       display: inline-block;
@@ -525,7 +525,7 @@ nav {
   #story h1, #story h2, #story h3, #story h4 {
     padding: 0 0 10px 0;
     margin: 10px 0;
-    border-bottom: 3px solid #FFD85F;
+    border-bottom: 3px solid #68B188;
     text-transform: uppercase;
     display: inline-block; }
   #story h1 {
@@ -568,7 +568,7 @@ nav {
     display: none; } }
 section#reading .sourceReading .read {
   margin: 5px 0;
-  border-bottom: 1px solid #FFD85F;
+  border-bottom: 1px solid #68B188;
   padding: 5px 0; }
   section#reading .sourceReading .read:last-child {
     border: none; }
@@ -583,7 +583,7 @@ section#reading .sourceReading .read {
   text-align: center;
   color: #fff;
   background: url(../assets/images/background-narrow.jpg) no-repeat center center fixed;
-  background-color: #000000;
+  background-color: #CD9CCA;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -624,7 +624,7 @@ footer p {
     padding: 0; }
     #blog ul li .postHead h3 a {
       padding: 0 0 10px 0;
-      border-bottom: 1px solid #FFD85F;
+      border-bottom: 1px solid #68B188;
       display: block; }
       #blog ul li .postHead h3 a:hover {
         border-bottom: 1px solid white; }
@@ -642,7 +642,7 @@ footer p {
   #blogPost h1, #blogPost h2, #blogPost h3, #blogPost h4 {
     padding: 0 0 10px 0;
     margin: 10px 0;
-    border-bottom: 3px solid #FFD85F; }
+    border-bottom: 3px solid #68B188; }
   #blogPost h1 {
     font-size: 25px;
     padding: 10px 0; }
@@ -676,12 +676,12 @@ footer p {
     padding: 0; }
   #blogPost a {
     display: inline-block;
-    color: #f8bc00;
-    background: #f2f2f2;
+    color: #3d7656;
+    background: white;
     padding: 10px;
     margin: 10px 0;
     border-radius: 3px;
-    border: 2px solid #f8bc00; }
+    border: 2px solid #3d7656; }
     #blogPost a:hover {
       background: white; }
   #blogPost .commentCount {
@@ -696,11 +696,11 @@ footer p {
       text-align: center;
       font-weight: bold; }
     #blogPost table td, #blogPost table th {
-      border: 1px solid #cccccc;
+      border: 1px solid white;
       padding: 5px; }
   #blogPost .postTitle + div .highlight:first-of-type {
     word-break: normal;
-    background-color: #FFD85F; }
+    background-color: #68B188; }
   #blogPost pre {
     margin: 10px 0;
     white-space: pre-wrap;
