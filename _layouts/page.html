@@ -2,6 +2,26 @@
 layout: default
 ---
 
-<h2>{{ page.title }}</h2>
+{% if page.title == "About" %}
 
+<!-- Intro Header -->
+<section class="storyIntro">
+  <div class="aboutHead">
+		<img src="../assets/images/cora.jpg" alt="picture of cora" style="height: 350px">
+		<h1>{{ site.title }}</h1>
+		<h2>My story</h2>
+		<div class="btnCircleContainer">
+			<a href="#{{ page.title | downcase }}" class="page-scroll">
+				<i class="fa fa-angle-double-down animated" aria-hidden="true"></i>
+			</a>
+		</div>
+	</div>
+</section>
+
+{% endif %}
+
+<section id={{ page.title | downcase }}>
+  <div class="content">
     {{ content }}
+  </div>
+</section>

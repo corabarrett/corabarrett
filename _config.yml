@@ -2,7 +2,7 @@
 #
 # This config file is meant for settings that affect your whole blog, values
 # which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
+# yourself editing these this file very often, consider using Jekyll's data files
 # feature for the data you need to update frequently.
 #
 # For technical reasons, this file is *NOT* reloaded automatically when you use
@@ -16,25 +16,49 @@
 title: Cora Barrett
 email: coralouisebarrett@gmail.com
 description: >
-  A website about Cora
+  This is a website by Cora Barrett discussing her musings on UK property planning.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://corabarrett.com" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: coratwitter
-github_username:  corabarrett
+url: "http://corabarrett.com"
+# repository: samyounger/samyounger.github.io
+# twitter_username: ayoungersage
+# github_username:  samyounger
+
+# Footer settings
+footer: Cora Barrett
+
+# Social networks
+social:
+  - title: twitter
+    url: https://twitter.com/ayoungersage
+  - title: facebook
+    url: https://www.facebook.com/cora.barrett.12
+  - title: stack-overflow
+    url: http://stackoverflow.com/story/samyounger
+  - title: linkedin
+    url: https://www.linkedin.com/in/corabarrett/
+  - title: github
+    url: https://github.com/corabarrett
 
 # Build settings
-assets:
-  digest: true
-kramdown:
-  input: GFM
 sass:
   sass_dir: _sass
-  style: compressed
-theme: minima
+include: ['_pages']
+kramdown:
+  input: GFM
 gems:
   - jekyll-feed
-  - jekyll-assets
-include: ['_pages']
 exclude:
   - Gemfile
   - Gemfile.lock
+
+# Default layouts for pages
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      comments: true
+      author: "Cora Barrett"
+      published: true
