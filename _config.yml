@@ -19,21 +19,14 @@ description: >
   This is a website by Cora Barrett discussing her musings on UK property planning.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://corabarrett.com"
-# repository: samyounger/samyounger.github.io
-# twitter_username: ayoungersage
-# github_username:  samyounger
 
 # Footer settings
 footer: Cora Barrett
 
 # Social networks
 social:
-  - title: twitter
-    url: https://twitter.com/ayoungersage
   - title: facebook
     url: https://www.facebook.com/cora.barrett.12
-  - title: stack-overflow
-    url: http://stackoverflow.com/story/samyounger
   - title: linkedin
     url: https://www.linkedin.com/in/corabarrett/
   - title: github

@@ -432,80 +432,6 @@ nav {
     display: table;
     clear: both; }
 
-#about {
-  text-align: center; }
-
-#projects {
-  background: white;
-  width: 100%;
-  color: black;
-  text-align: center; }
-  #projects .projectContainer {
-    display: block;
-    width: 840px;
-    height: auto;
-    margin: 0 auto; }
-    #projects .projectContainer .project {
-      height: 300px;
-      width: 400px;
-      background: black;
-      float: left;
-      overflow: hidden;
-      position: relative; }
-    #projects .projectContainer:nth-child(3) .project, #projects .projectContainer:nth-child(5) .project {
-      float: right; }
-    #projects .projectContainer .projectDescription {
-      display: inline-block;
-      width: 400px;
-      height: 310px;
-      overflow: hidden; }
-      #projects .projectContainer .projectDescription h3 {
-        margin: 10px; }
-      #projects .projectContainer .projectDescription p {
-        font-size: 15px; }
-      #projects .projectContainer .projectDescription .fa-cloud, #projects .projectContainer .projectDescription .fa-code {
-        font-size: 3em;
-        color: #CD9CCA;
-        margin: 0 50px; }
-    #projects .projectContainer:last-child .iconContainer {
-      display: inline-block;
-      width: 90px;
-      vertical-align: top; }
-      #projects .projectContainer:last-child .iconContainer .fa-cloud, #projects .projectContainer:last-child .iconContainer .fa-code {
-        margin: 0 10px; }
-      #projects .projectContainer:last-child .iconContainer p {
-        color: grey;
-        font-weight: 100; }
-    #projects .projectContainer .projectPhoto {
-      height: 300px;
-      width: auto;
-      display: block;
-      margin: 0 auto;
-      margin-left: -100px;
-      transition: all .2s ease-in-out; }
-      #projects .projectContainer .projectPhoto:hover {
-        transform: scale(1.1); }
-
-@media (max-width: 870px) {
-  #projects .projectContainer {
-    width: auto;
-    height: auto; }
-    #projects .projectContainer .project, #projects .projectContainer .projectDescription {
-      width: 100%;
-      height: auto; }
-    #projects .projectContainer .projectPhoto, #projects .projectContainer .projectDescription {
-      width: 100%;
-      height: auto;
-      margin: 0 auto; } }
-.samPhoto {
-  height: 250px;
-  width: 200px;
-  margin: 0 auto;
-  overflow: hidden;
-  border-radius: 120px / 150px; }
-  .samPhoto img {
-    width: 200px; }
-
 .storyIntro {
   padding-top: 50px;
   text-align: center;
@@ -519,53 +445,6 @@ nav {
     .storyIntro .aboutHead img {
       border-radius: 35px; }
 
-#story {
-  margin: 0 auto;
-  text-align: center; }
-  #story h1, #story h2, #story h3, #story h4 {
-    padding: 0 0 10px 0;
-    margin: 10px 0;
-    border-bottom: 3px solid #68B188;
-    text-transform: uppercase;
-    display: inline-block; }
-  #story h1 {
-    font-size: 35px;
-    padding: 10px 0; }
-  #story h2 {
-    display: inline-block;
-    font-size: 30px; }
-  #story h3 {
-    font-size: 25px; }
-  #story h4 {
-    font-size: 20px; }
-  #story .quote {
-    width: 80%;
-    margin: 50px auto;
-    border-left: 2px solid lightgrey;
-    padding-left: 20px; }
-    #story .quote p {
-      text-align: left;
-      margin: 0; }
-    #story .quote .quoteRef {
-      text-align: right;
-      color: lightgrey;
-      font-size: 18px;
-      margin: 0; }
-  #story .codeLanguages .iconContainer {
-    display: inline-block;
-    margin: 10px 0px;
-    width: 150px; }
-    #story .codeLanguages .iconContainer i {
-      font-size: 5em; }
-    #story .codeLanguages .iconContainer p {
-      margin: 0; }
-
-@media (min-width: 767px) {
-  section#story.content-section {
-    max-width: 850px; } }
-@media (max-width: 767px) {
-  #codeLanguages {
-    display: none; } }
 section#reading .sourceReading .read {
   margin: 5px 0;
   border-bottom: 1px solid #68B188;
