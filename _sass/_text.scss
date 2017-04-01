@@ -28,7 +28,7 @@ a {
   color: $secondary-color;
   text-transform: uppercase;
   &:hover {
-    color: lighten($primary-color, 100%);
+    color: darken($secondary-color, 10%);
     text-decoration: none;
   }
 }

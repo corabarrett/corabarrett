@@ -201,11 +201,11 @@ code.highlighter-rouge {
 h1, h2, h3, h4 {
   padding: 0 0 10px 0;
   text-transform: uppercase;
-  font-family: "Muli", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 400;
   letter-spacing: 1px;
   margin: 10px 0;
-  border-bottom: 3px solid #68B188; }
+  border-bottom: 3px solid #e9d758; }
 
 h1 {
   font-size: 30px;
@@ -224,10 +224,10 @@ h4 {
   font-size: 15px; }
 
 a {
-  color: #68B188;
+  color: #e9d758;
   text-transform: uppercase; }
   a:hover {
-    color: white;
+    color: #e3cc2b;
     text-decoration: none; }
 
 p {
@@ -239,23 +239,23 @@ p {
 
 @media (max-width: 736px) {
   a {
-    color: #68B188; } }
+    color: #e9d758; } }
 .button {
   display: inline-block;
   margin: 10px;
-  border: 1px solid #68B188;
+  border: 1px solid #e9d758;
   color: white;
-  background-color: rgba(104, 177, 136, 0.5);
+  background-color: rgba(233, 215, 88, 0.5);
   text-transform: uppercase;
-  font-family: "Muli", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 400;
   border-radius: 5px;
   -webkit-transition: all .3s ease-in-out;
   -moz-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out; }
   .button:hover, .button:focus {
-    border: 1px solid #68B188;
-    background-color: #68B188; }
+    border: 1px solid #e9d758;
+    background-color: #e9d758; }
   .button a {
     display: block;
     padding: 10px;
@@ -265,13 +265,14 @@ p {
     -moz-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out; }
     .button a:hover {
-      color: white; }
+      color: #b6e5e5; }
 
 .btnCircleContainer {
   width: 60px;
   height: 60px;
   line-height: 60px;
-  border: 1px solid white;
+  border: 1px solid black;
+  opacity: 0.5;
   border-radius: 50%;
   margin: 0 auto; }
   .btnCircleContainer a {
@@ -280,13 +281,15 @@ p {
     display: block;
     border-radius: 50%;
     font-size: 2em;
-    color: #fff;
+    color: black;
+    opacity: 0.5;
     -webkit-transition: background .3s ease-in-out;
     -moz-transition: background .3s ease-in-out;
     transition: background .3s ease-in-out; }
     .btnCircleContainer a:hover, .btnCircleContainer a:focus {
       outline: 0;
-      color: #fff;
+      color: #1c4d4d;
+      opacity: 0.8;
       background: rgba(255, 255, 255, 0.1); }
     .btnCircleContainer a i.animated {
       -webkit-transition-property: -webkit-transform;
@@ -337,13 +340,13 @@ input {
   box-sizing: border-box; }
 
 ::selection {
-  background: #68B188;
+  background: #e9d758;
   /* WebKit/Blink Browsers */ }
 
 body {
-  background: #CD9CCA;
+  background: #297373;
   color: white;
-  font-family: "Muli", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 100;
   font-size: 1.1em;
   line-height: 1.6; }
@@ -358,7 +361,7 @@ main {
       margin: 0 auto; }
 
 time {
-  color: white; }
+  color: #dcf2f2; }
 
 header {
   background: url("../assets/images/background.jpg") no-repeat center center fixed;
@@ -380,11 +383,15 @@ header {
     letter-spacing: 5px;
     text-transform: uppercase;
     padding: 0;
-    border: none; }
+    margin-top: 230px;
+    border: none;
+    color: black;
+    opacity: 0.5; }
     header h1 a {
-      color: white; }
+      color: black; }
   header h2 {
-    color: white;
+    color: black;
+    opacity: 0.5;
     font-size: 30px;
     padding: 0;
     border: none;
@@ -408,8 +415,8 @@ nav {
         text-decoration: none;
         display: block;
         padding: 15px;
-        color: white;
-        font-family: "Muli", sans-serif;
+        color: black;
+        font-family: "Raleway", sans-serif;
         line-height: 20px;
         margin-bottom: -1px;
         box-shadow: 0; }
@@ -424,7 +431,9 @@ nav {
       nav .postNav .postNav i, nav .postNav .postNav a {
         margin: 0 10px;
         z-index: 2;
-        color: white; }
+        color: black; }
+      nav .postNav .postNav i {
+        color: #e3cc2b; }
   nav .pageTop {
     float: left; }
   nav:after {
@@ -447,7 +456,7 @@ nav {
 
 section#reading .sourceReading .read {
   margin: 5px 0;
-  border-bottom: 1px solid #68B188;
+  border-bottom: 1px solid #e9d758;
   padding: 5px 0; }
   section#reading .sourceReading .read:last-child {
     border: none; }
@@ -461,13 +470,15 @@ section#reading .sourceReading .read {
   padding: 50px 0;
   text-align: center;
   color: #fff;
-  background: url(../assets/images/background-narrow.jpg) no-repeat center center fixed;
-  background-color: #CD9CCA;
+  background: url(../assets/images/background.jpg) no-repeat center center fixed;
+  background-color: #297373;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover; }
   #getInTouch h2 {
+    color: black;
+    opacity: 0.5;
     border: none; }
 
 @media (min-width: 767px) {
@@ -503,7 +514,7 @@ footer p {
     padding: 0; }
     #blog ul li .postHead h3 a {
       padding: 0 0 10px 0;
-      border-bottom: 1px solid #68B188;
+      border-bottom: 1px solid #e9d758;
       display: block; }
       #blog ul li .postHead h3 a:hover {
         border-bottom: 1px solid white; }
@@ -521,7 +532,7 @@ footer p {
   #blogPost h1, #blogPost h2, #blogPost h3, #blogPost h4 {
     padding: 0 0 10px 0;
     margin: 10px 0;
-    border-bottom: 3px solid #68B188; }
+    border-bottom: 3px solid #e9d758; }
   #blogPost h1 {
     font-size: 25px;
     padding: 10px 0; }
@@ -555,12 +566,12 @@ footer p {
     padding: 0; }
   #blogPost a {
     display: inline-block;
-    color: #3d7656;
+    color: #c2ad19;
     background: white;
     padding: 10px;
     margin: 10px 0;
     border-radius: 3px;
-    border: 2px solid #3d7656; }
+    border: 2px solid #c2ad19; }
     #blogPost a:hover {
       background: white; }
   #blogPost .commentCount {
@@ -579,7 +590,7 @@ footer p {
       padding: 5px; }
   #blogPost .postTitle + div .highlight:first-of-type {
     word-break: normal;
-    background-color: #68B188; }
+    background-color: #e9d758; }
   #blogPost pre {
     margin: 10px 0;
     white-space: pre-wrap;

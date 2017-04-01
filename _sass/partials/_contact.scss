@@ -8,13 +8,16 @@
   padding: 50px 0;
   text-align: center;
   color: #fff;
-  background: url(../assets/images/background-narrow.jpg) no-repeat center center fixed;
+  background: url(../assets/images/background.jpg) no-repeat center center fixed;
+  // background: url(../assets/images/background-narrow.jpg) no-repeat center center fixed;
   background-color: $primary-color;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
   h2 {
+    color: darken($primary-color, 100%);
+    opacity: 0.5;
     border: none;
   }
 }
