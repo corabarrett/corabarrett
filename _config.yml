@@ -43,6 +43,7 @@ gems:
 exclude:
   - Gemfile
   - Gemfile.lock
+timezone: Europe/London
 
 # Default layouts for pages
 defaults:
