@@ -245,7 +245,7 @@ p {
   margin: 10px;
   border: 1px solid #e9d758;
   color: white;
-  background-color: rgba(233, 215, 88, 0.5);
+  background-color: rgba(233, 215, 88, 0.2);
   text-transform: uppercase;
   font-family: "Raleway", sans-serif;
   font-weight: 400;
@@ -261,11 +261,11 @@ p {
     padding: 10px;
     border-radius: 5px;
     color: white;
-    -webkit-transition: all .3s ease-in-out;
-    -moz-transition: all .3s ease-in-out;
-    transition: all .3s ease-in-out; }
+    -webkit-transition: all .6s ease-in-out;
+    -moz-transition: all .6s ease-in-out;
+    transition: all .6s ease-in-out; }
     .button a:hover {
-      color: #b6e5e5; }
+      color: black; }
 
 .btnCircleContainer {
   width: 60px;
@@ -397,49 +397,44 @@ header {
     border: none;
     text-transform: none; }
 
+#home {
+  text-align: center; }
+  #home p {
+    text-align: justify; }
+  #home ul {
+    text-align: center; }
+
 nav {
   position: fixed;
   width: 100vw;
-  margin: 0 auto;
+  height: 50px;
+  text-align: center;
   transition: background 1s;
   z-index: 1; }
   nav ul {
-    float: right;
-    margin: 0;
-    padding: 0;
-    list-style: none; }
+    height: inherit; }
     nav ul li {
-      float: left;
-      position: relative; }
+      float: left; }
       nav ul li a {
-        text-decoration: none;
         display: block;
-        padding: 15px;
+        padding: 10px 20px;
         color: black;
         font-family: "Raleway", sans-serif;
-        line-height: 20px;
-        margin-bottom: -1px;
         box-shadow: 0; }
-  nav .postNav {
-    text-align: center; }
-    nav .postNav .postNav {
-      position: fixed;
-      left: 0;
-      right: 0;
-      top: 5px;
-      height: 50px; }
-      nav .postNav .postNav i, nav .postNav .postNav a {
-        margin: 0 10px;
-        z-index: 2;
-        color: black; }
-      nav .postNav .postNav i {
-        color: #e3cc2b; }
-  nav .pageTop {
+  nav .leftNav {
     float: left; }
-  nav:after {
-    content: '';
-    display: table;
-    clear: both; }
+  nav .rightNav {
+    float: right; }
+  nav .middleNav {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%); }
+    nav .middleNav li a, nav .middleNav li i {
+      margin: 0 10px;
+      color: black; }
+    nav .middleNav li i {
+      font-size: 1.5em;
+      color: #e9d758; }
 
 .storyIntro {
   padding-top: 50px;
