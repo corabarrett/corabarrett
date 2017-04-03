@@ -515,6 +515,10 @@ footer p {
         border-bottom: 1px solid white; }
   #blog ul li .postHead a {
     display: block; }
+#blog input {
+  width: 100%;
+  background: #e9d758;
+  border: none; }
 
 #blogPost {
   min-height: calc(100vh - 80px);
@@ -569,11 +573,6 @@ footer p {
     border: 2px solid #c2ad19; }
     #blogPost a:hover {
       background: white; }
-  #blogPost .commentCount {
-    display: block;
-    text-align: center;
-    background: white;
-    cursor: default; }
   #blogPost table {
     border: 1px solid black;
     margin: 10px auto; }
@@ -598,6 +597,15 @@ footer p {
     /* Opera 7 */
     word-wrap: break-word;
     /* Internet Explorer 5.5+ */ }
+  #blogPost .category {
+    margin: 5px 0;
+    padding: 15px 0 10px;
+    border-top: 1px solid lightgrey; }
+    #blogPost .category span {
+      background: #e9d758;
+      border-radius: 5px;
+      padding: 5px;
+      cursor: default; }
 
 @media (max-width: 736px) {
   #blogIndex {
