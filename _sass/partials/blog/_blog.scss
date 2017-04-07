@@ -29,6 +29,11 @@
       }
     }
   }
+  input {
+    width: 100%;
+    background: $secondary-color;
+    border: none;
+  }
 }
 
 #blogPost {
@@ -97,12 +102,6 @@
       background: lighten($primary-color, 100%);
     }
   }
-  .commentCount {
-    display: block;
-    text-align: center;
-    background: lighten($primary-color, 100%);
-    cursor: default;
-  }
   table {
     border: 1px solid black;
     margin: 10px auto;
@@ -128,6 +127,17 @@
     white-space: -pre-wrap;      /* Opera 4-6 */
     white-space: -o-pre-wrap;    /* Opera 7 */
     word-wrap: break-word;       /* Internet Explorer 5.5+ */
+  }
+  .category {
+    margin: 5px 0;
+    padding: 15px 0 10px;
+    border-top: 1px solid lightgrey;
+    span {
+      background: $secondary-color;
+      border-radius: 5px;
+      padding: 5px;
+      cursor: default;
+    }
   }
 }
 

@@ -8,9 +8,14 @@ layout: default
     <h1 class="blog_title">{{ page.title }}</h1>
     <h2 class="blog_date">{{ page.date | date_to_long_string }}</h2>
   </div>
+
   {{ content }}
 
-  <a href="{{ post.url | prepend: site.baseurl }}#disqus_thread" class="commentCount" onclick="return false">Loading disqus</a>
+  <p class="category">Tags:
+    {% for category in page.categories %}
+    <span>{{ category }}</span>
+    {% endfor %}
+  </p>
 
   {% if page.comments %}
 

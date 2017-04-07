@@ -1,7 +1,7 @@
 ---
 title: Are we planning for affordable homes
 date: 2017-04-06
-categories: [planning, housing-white-paper, housing, affordable-housing]
+categories: [planning, housing-white-paper, housing, affordable housing]
 ---
 
     DESCRIPTION: Commentary on affordable housing policy set out in the Housing White Paper.
@@ -27,6 +27,7 @@ I accept that it is not always possible to provide affordable on site, for examp
 Thresholds of affordable housing should be set based on local needs. However there may be some sites of particular strategic importance which require incentives to come forward. Such sites may include large brownfield town centre sites with contamination or other issues that have prevented development in the past. For such sites a local authority should consider setting a lower affordable housing threshold.
 
 In summary then, the Government should go further to ensure that we deliver truly affordable housing for the future. We should be:
-Linking affordable rents to average local incomes;
-Placing a cap on the deposits required for affordable home ownership products linked to income thresholds; and
-Removing viability considerations from affordable housing provision as part of new residential developments.
+
+- Linking affordable rents to average local incomes;
+- Placing a cap on the deposits required for affordable home ownership products linked to income thresholds; and
+- Removing viability considerations from affordable housing provision as part of new residential developments.
