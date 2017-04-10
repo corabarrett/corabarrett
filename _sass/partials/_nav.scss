@@ -5,6 +5,7 @@ nav {
 	text-align: center;
 	transition: background 1s;
 	z-index: 1;
+	background: linear-gradient(rgba(white, 1.0), rgba(white, 0.0));
 	ul {
 		height: inherit;
 		li {
@@ -15,6 +16,9 @@ nav {
 				color: darken($primary-color, 100%);
 				font-family: $primary-font-stack;
 				box-shadow: 0;
+				&:hover {
+					color: $primary-color;
+				}
 			}
 		}
 	}
@@ -35,7 +39,7 @@ nav {
 			}
 			i {
 				font-size: 1.5em;
-				color: $secondary-color;
+				color: $primary-color;
 			}
 		}
 	}
