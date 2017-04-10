@@ -7,6 +7,10 @@ $(document).ready(function() {
     this.field('author');
     this.field('categories');
     this.field('date');
+
+    // remove screened out common words functionality
+    this.pipeline.remove(lunr.stemmer)
+    this.pipeline.remove(lunr.stopWordFilter)
   });
 
   // Get the generated search_data.json file so lunr.js can search it locally.
