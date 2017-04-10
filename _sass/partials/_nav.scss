@@ -5,7 +5,12 @@ nav {
 	text-align: center;
 	transition: background 1s;
 	z-index: 1;
-	background: linear-gradient(rgba(white, 1.0), rgba(white, 0.0));
+	&.gradientNav {
+		background: linear-gradient(rgba(white, 1.0), rgba(white, 0.0));
+	}
+	&.lightNav {
+		background: rgba(white, 0.5);
+	}
 	ul {
 		height: inherit;
 		li {
@@ -39,7 +44,7 @@ nav {
 			}
 			i {
 				font-size: 1.5em;
-				color: $primary-color;
+				color: darken($primary-color, 15%);
 			}
 		}
 	}

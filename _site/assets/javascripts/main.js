@@ -1,10 +1,7 @@
 // jQuery to collapse the navbar on scroll
 $(window).scroll(function() {
-    if ($("nav").offset().top > 50) {
-        $("nav").css({ background: "rgba(255,255,255,0.5)" });
-    } else {
-        $("nav").css({ background: "linear-gradient(rgba(255, 255, 255, 1.0), rgba(255, 255, 255, 0.0))" });
-    }
+  $("nav").toggleClass("lightNav", top.scrollY > 50);
+  $("nav").toggleClass("gradientNav", top.scrollY <= 50);
 });
 
 // jQuery for page scrolling feature - requires jQuery ui

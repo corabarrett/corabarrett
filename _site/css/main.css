@@ -410,8 +410,11 @@ nav {
   height: 50px;
   text-align: center;
   transition: background 1s;
-  z-index: 1;
-  background: linear-gradient(white, rgba(255, 255, 255, 0)); }
+  z-index: 1; }
+  nav.gradientNav {
+    background: linear-gradient(white, rgba(255, 255, 255, 0)); }
+  nav.lightNav {
+    background: rgba(255, 255, 255, 0.5); }
   nav ul {
     height: inherit; }
     nav ul li {
@@ -437,7 +440,7 @@ nav {
       color: black; }
     nav .middleNav li i {
       font-size: 1.5em;
-      color: #297373; }
+      color: #153b3b; }
 
 .storyIntro {
   padding-top: 50px;
